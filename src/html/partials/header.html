@@ -1,12 +1,22 @@
-<!-- <header class="header">
+<header class="header">
   <div class="header__container">
     <a href="index.html" class="header__logo">
-      <img src="" alt="Header logo">
+      <picture>
+        <source srcset="@img/header/logo-mobile.svg" media="(max-width: 768px)">
+        <img src="@img/header/logo.svg" alt="Header logo" draggable="false">
+      </picture>
     </a>
     <nav class="header__nav">
+      <a href="#" class="header__link">Home</a>
+      <a href="#" class="header__link">About</a>
+      <a href="#" class="header__link">Works</a>
+      <a href="#" class="header__link">Prices</a>
+      <a href="#" class="header__link">For clients</a>
+      <a href="#" class="header__link">Contacts</a>
+      @@include('ui/header-button.html')
     </nav>
     <div class="header__burger">
       <span></span>
     </div>
   </div>
-</header> -->
+</header>

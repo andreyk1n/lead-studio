@@ -3,9 +3,9 @@ $fontFamily: 'Montserrat', sans-serif;
 $fontSize: 18px;
 
 // Кольори
-$bgColor: white;
+$bgColor: #131313;
 $transitionDuration: .8s;
-$fontColor: rgb(67, 67, 70);
+$fontColor: #fff;
 $boxShadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 // Внутрішні відступи
@@ -23,7 +23,7 @@ $h2FontWeight: 800;
 $h3FontWeight: 700;
 
 // Обмеження контейнера
-$maxWidthContainer: 1170px;
+$maxWidthContainer: 1580px;
 $paddingContainer: 15px;
 
 // Адаптив
