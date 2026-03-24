@@ -1,15 +1,10 @@
 <section class="hero">
     <div class="hero__container">
+        <span class="hero__label">@@label</span>
         <h1 class="hero__title">@@title</h1>
-        <p class="hero__desc">@@desc</p>
-        <a href="#" class="hero__button">@@buttonText</a>
+        @@include('ui/circle-button.html', {
+        "title": "My button",
+        })
+        <img src="@img/hero/@@url" alt="@@title" class="hero__image" draggable="false">
     </div>
 </section>
-
-
-<!-- використання компонента -->
-<!-- @@include('components/hero.html', {
-"title": "Мій заголовок",
-"desc": "Опис секції",
-"buttonText": "Натисни сюди"
-}) -->
