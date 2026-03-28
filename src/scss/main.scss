@@ -1,7 +1,10 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 @use 'partials/header';
+@use 'partials/buttons';
+@use 'components/hero';
 @use 'partials/footer';
+
 
 @font-face {
     font-family: 'Montserrat';
@@ -13,7 +16,7 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('Montserrat-Regular.woff2') format('woff2');
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
