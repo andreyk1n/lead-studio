@@ -1,100 +1,100 @@
-.about {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-
-    &__container {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
+    .about {
+        width: 100%;
         height: 100vh;
-        position: relative;
+        overflow: hidden;
 
-        &::before {
-            content: '';
-            width: 1px;
-            height: 100%;
-            background-color: #fff;
-            position: absolute;
-            top: 0;
-            left: -66px;
-        }
-    }
-
-    &__title {
-        margin: 200px 0 0 0;
-        color: #fff;
-        font-size: 100px;
-        text-transform: uppercase;
-        position: relative;
-
-        &::before {
-            content: '';
-            width: 5000px;
-            height: 1px;
-            background-color: #fff;
-            display: block;
-            position: absolute;
-            top: -35px;
-            left: -2000px;
-        }
-
-        &::after {
-            content: '';
-            width: 5000px;
-            height: 1px;
-            background-color: #fff;
-            display: block;
-            position: absolute;
-            bottom: -35px;
-            left: -2000px;
-        }
-    }
-
-    &__row {
-        margin: 120px 0 0 0;
-        display: flex;
-        justify-content: space-between;
-        gap: 100px;
-    }
-
-    &__text {
-        color: #fff;
-        font-size: clamp(18px, 5vw, 20px);
-        line-height: 34px;
-    }
-
-    &__socials {
-        margin: 100px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-
-        &-title {
-            color: #fff;
-            text-transform: uppercase;
-            font-size: clamp(18px, 5vw, 20px);
-        }
-
-        &-links {
+        &__container {
             display: flex;
-            align-items: center;
-            gap: 25px;
-        }
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
 
-        &-link {
-            text-decoration: none;
-            transition-duration: .5s;
-
-            &:hover {
-                opacity: .5;
-                transform: scale(0.93);
+            &::before {
+                content: '';
+                width: 1px;
+                height: 100%;
+                background-color: #fff;
+                position: absolute;
+                top: 0;
+                left: -66px;
             }
         }
-    }
 
-    .button {
-        margin: 0;
+        &__title {
+            margin-top: clamp(150px, 12vh, 200px);
+            color: #fff;
+            font-size: 100px;
+            text-transform: uppercase;
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 5000px;
+                height: 1px;
+                background-color: #fff;
+                display: block;
+                position: absolute;
+                top: -35px;
+                left: -2000px;
+            }
+
+            &::after {
+                content: '';
+                width: 5000px;
+                height: 1px;
+                background-color: #fff;
+                display: block;
+                position: absolute;
+                bottom: -35px;
+                left: -2000px;
+            }
+        }
+
+        &__row {
+            margin-top: clamp(40px, 8vh, 120px);
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+        }
+
+        &__text {
+            color: #fff;
+            font-size: clamp(18px, 5vw, 20px);
+            line-height: 34px;
+        }
+
+        &__socials {
+            margin-top: clamp(30px, 6vh, 100px);
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+
+            &-title {
+                color: #fff;
+                text-transform: uppercase;
+                font-size: clamp(18px, 5vw, 20px);
+            }
+
+            &-links {
+                display: flex;
+                align-items: center;
+                gap: 25px;
+            }
+
+            &-link {
+                text-decoration: none;
+                transition-duration: .5s;
+
+                &:hover {
+                    opacity: .5;
+                    transform: scale(0.93);
+                }
+            }
+        }
+
+        .button {
+            margin: 0;
+        }
     }
-}
