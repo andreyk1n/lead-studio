@@ -4,6 +4,7 @@
 @use 'partials/buttons';
 @use 'components/hero';
 @use 'components/about';
+@use 'components/contacts';
 @use 'partials/footer';
 
 
@@ -153,23 +154,6 @@ button {
 // Cтилізація ектів статусу для поточної сторінки
 .currentPage {
     text-decoration: underline;
-}
-
-// Обнулення стилів автозаповнення форми
-input {
-    background: #fff !important;
-}
-
-:-webkit-autofill,
-:-webkit-autofill:hover,
-:-webkit-autofill:focus {
-    filter: none;
-    -webkit-text-fill-color: #333;
-    -webkit-box-shadow: 0 0 0px 40rem #fff inset;
-}
-
-:-webkit-autofill::first-line {
-    font-size: 16px;
 }
 
 .follow {
