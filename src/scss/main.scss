@@ -145,7 +145,8 @@ h1 {
     @include adaptiveValue('font-size', 60px, 24px);
 }
 
-a, button {
+a,
+button {
     transition-duration: $transitionDuration;
 }
 
@@ -170,3 +171,34 @@ input {
 :-webkit-autofill::first-line {
     font-size: 16px;
 }
+
+.follow {
+    margin-top: clamp(30px, 6vh, 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    &__title {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: clamp(18px, 5vw, 20px);
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        text-decoration: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        transition-duration: .5s;
+
+        &:hover {
+            opacity: .5;
+            transform: scale(0.93);
+        }
+    }
+}
+

@@ -6,8 +6,15 @@
     position: fixed;
     top: 0;
     left: 0;
-    transition: top $transitionDuration;
+    transition-duration: $transitionDuration;
     padding: 40px 0 10px 0;
+    
+
+    &--scrolled {
+        background-color: #00000069;
+        backdrop-filter: blur(4px);
+    }
+
 
     @media (max-width: 992px) {
         padding: 20px 0;

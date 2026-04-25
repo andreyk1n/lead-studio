@@ -69,34 +69,6 @@
             line-height: 34px;
         }
 
-        &__socials {
-            margin-top: clamp(30px, 6vh, 100px);
-            display: flex;
-            flex-direction: column;
-            gap: 35px;
-
-            &-title {
-                color: #fff;
-                text-transform: uppercase;
-                font-size: clamp(18px, 5vw, 20px);
-            }
-
-            &-links {
-                display: flex;
-                align-items: center;
-                gap: 25px;
-            }
-
-            &-link {
-                text-decoration: none;
-                transition-duration: .5s;
-
-                &:hover {
-                    opacity: .5;
-                    transform: scale(0.93);
-                }
-            }
-        }
 
         .button {
             margin: 0;
